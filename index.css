@@ -1,0 +1,217 @@
+header {
+    display: block;
+    /* position: fixed; */
+    height: 8rem;
+    width: 100vw;
+    padding: 1rem;
+    background-color: rgb(21, 54, 65);
+}
+
+.color-text {
+    color: rgb(109, 179, 191);
+}
+
+#oferte,
+#servicii,
+#galerie,
+#tarife,
+#contact,
+#despreNoi {
+    display: none;
+}
+
+    /* ----------------------- MENIU ORIZONTAL ------------------- */
+.menuHorizontally {
+    border: 1px solid rgb(21, 54, 65);
+}
+.menuHorizontally, .menuHorizontally a, .dropdown-menu, .dropdown-menu a, .buttonDropdown{
+    background-color: rgb(148, 207, 201);
+    color: rgb(21,54,65);
+    border-radius: 5px;
+}
+
+.menuHorizontally a:hover,
+.menuHorizontally a:
+.dropdown-menu a:hover {
+    background-color: rgb(71, 153, 183);
+}
+
+    /* ------------------- MENIU DROPDOWN ------------------ */
+.menuDropdown {
+    display: none;
+    float: right;
+    position: relative;
+    top: 4rem;
+}
+
+/* --------------- CONTACT ------------------------ */
+
+.facebook,
+.email, 
+.adres
+{
+    color: rgb(109, 179, 191);
+    padding: 0.2rem;
+    border-radius: 30%;
+    width: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+    .menuHorizontally,
+    .program,
+    .address,
+    .cont,
+    .adresa,
+    .tel {
+        display: none;
+    }
+
+    /* .pages-wrapper {
+        padding-top: 9rem;
+    } */
+
+    .menuDropdown {
+        display: block;
+    }
+
+    header {
+        height: 9rem;
+    }
+
+    .noPadding {
+        padding: 5px;
+    }
+
+}
+
+
+/* .pages-wrapper {
+    padding-top: 8rem;
+    height: 100vh;
+} */
+
+
+
+    /* ------------------ ACASA -------------------------- */
+.coverAcasa {
+    display: table;
+    width: 100vw;
+    height: 100vh;
+}
+.profil-card {
+    position: relative;
+    top: -50px;
+    width: 100vw;
+
+    background-color: rgba(148, 207, 201, 0.5);
+    border-radius: 4px;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+    color: rgb(21, 54, 65);
+    font-size: 2rem;
+    text-align: center;
+}
+.wrapperAcasa {
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url('cover2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+
+    display: flex;
+}
+
+
+
+    /* --------------------------- SERVICII ---------------------- */
+
+.wrapperServicii {
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url('cover2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.accordion {
+    position: relative;
+    top: 5rem;
+    text-align: center;
+}
+
+.colorServicii {
+    color: rgb(21, 54, 65);
+}
+
+.card-body {
+    float: right;
+    background-color: rgb(148, 207, 201);
+}
+
+.fundalTransparent {
+    background-color: transparent;
+}
+
+    /* ----------------- TARIFE -------------------- */
+
+.wrapperTarife {
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url('cover2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.listaServicii {
+    position: relative;
+    top: 4rem;
+}
+
+.containerServicii {
+    max-width: 18rem; 
+    border: 2px solid rgb(21, 54, 65);
+}
+
+.listaTarifeServicii, .listaTarife{
+    background-color: rgb(21, 54, 65);
+    color: rgb(109, 179, 191);
+}
+
+.tabelTarife {
+    position: relative;
+    top: 4rem;
+    background-color: rgb(109, 179, 191);
+    color: rgb(21, 54, 65);
+
+    border: 2px solid rgb(21, 54, 65);
+
+    height: 500px;
+    overflow: auto;
+}
+
+    /* --------------------- GALERIE------------------ */
+
+    .dimensiunePhoto {
+        width: 200px;
+        /* padding: 5px; */
+    }
+
+    /* ---------------------------------- Footer -------------------- */
+footer {
+    background-color: rgb(21, 54, 65);
+    padding: 5px;
+    bottom: 0px;
+    font-size: 1rem;
+    text-align: right;
+}
+footer a {
+    color: rgb(109, 179, 191);
+}
