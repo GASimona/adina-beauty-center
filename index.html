@@ -110,12 +110,12 @@
                                 Tarife
                             </button>
                             <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                <a class="dropdown-item" href="#">Epilat</a>
-                                <a class="dropdown-item" href="#">Manichiura / Pedichiura</a>
-                                <a class="dropdown-item" href="#">Tratamente</a>
-                                <a class="dropdown-item" href="#">Masaje</a>
-                                <a class="dropdown-item" href="#">Make-Up</a>
-                                <a class="dropdown-item" href="#">Gene fir cu fir</a>
+                                <a class="dropdown-item" href="#epilat">Epilat</a>
+                                <a class="dropdown-item" href="#manichiura">Manichiura / Pedichiura</a>
+                                <a class="dropdown-item" href="#tratamente">Tratamente</a>
+                                <a class="dropdown-item" href="#masaje">Masaje</a>
+                                <a class="dropdown-item" href="#make">Make-Up</a>
+                                <a class="dropdown-item" href="#gene">Gene fir cu fir</a>
                             </div>
                         </div>
 
@@ -141,10 +141,12 @@
                 </div>
             </div>
         </div>
+
         <div id="oferte">Oferte</div>
+
         <div id="servicii">
             <div class="wrapperServicii">
-                <div class="accordion accordionSrevicii" id="accordionExample">
+                <div class="accordion accordionSrevicii" id="accordionServicii">
                     <div class="card fundalTransparent">
                         <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
@@ -155,9 +157,9 @@
                             </h5>
                         </div>
 
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionServicii">
                             <div class="card-body">
-                                <div class="row">
+                                <div class="row aranjareRowServicii">
                                     <div class="col-lg-4">
                                         <img class="card-img-top" src="epilat.jpg" alt="img-epilat">
 
@@ -189,9 +191,9 @@
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionServicii">
                             <div class="card-body">
-                                <div class="row">
+                                <div class="row aranjareRowServicii">
                                     <div class="col-lg-4">
                                         <img class="card-img-top" src="manichiura.jpg" alt="img-epilat">
                                     </div>
@@ -222,9 +224,9 @@
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionServicii">
                             <div class="card-body">
-                                <div class="row">
+                                <div class="row aranjareRowServicii">
                                     <div class="col-lg-4">
                                         <img class="card-img-top" src="fata.jpg" alt="img-epilat">
                                     </div>
@@ -255,9 +257,9 @@
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionServicii">
                             <div class="card-body">
-                                <div class="row">
+                                <div class="row aranjareRowServicii">
                                     <div class="col-lg-4">
                                         <img class="card-img-top" src="masaj.jpg" alt="img-epilat">
                                     </div>
@@ -288,9 +290,9 @@
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionServicii">
                             <div class="card-body">
-                                <div class="row">
+                                <div class="row aranjareRowServicii">
                                     <div class="col-lg-4">
                                         <img class="card-img-top" src="machiaj.jpg" alt="img-epilat">
                                     </div>
@@ -321,9 +323,9 @@
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionServicii">
                             <div class="card-body">
-                                <div class="row">
+                                <div class="row aranjareRowServicii">
                                     <div class="col-lg-4">
                                         <img class="card-img-top" src="gene.jpg" alt="img-epilat">
                                     </div>
@@ -350,7 +352,6 @@
             </div>
         </div>
 
-
         <div id="galerie" class="py-5">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
@@ -374,19 +375,20 @@
                 </a>
             </div>
         </div>
+
         <div id="tarife">
-            <div class="wrapperTarife ">
-                <div class="accordion accordionTarife" id="accordionExample">
-                    <div class="card butonTarifeColor">
+            <div class="wrapperTarife">
+                <div class="accordion accordionTarife" id="accordionTarife">
+                    <div class="card butonTarifeColor" id="epilat" >
                         <div class="card-header" id="headingOne">
                             <h5 class="mb-0 styleButonTarife">
-                                <button class="btn btn-link " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                <button class="btn btn-link collapsed butonTarifeColor" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
                                     aria-controls="collapseOne">
                                     Epilat
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionTarife">
                             <div class="card-body listaTarife">
                                 <table class="table table-sm tarifeEpilat">
                                     <tbody>
@@ -533,16 +535,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card butonTarifeColor">
+                    <div class="card butonTarifeColor" id="manichiura">
                         <div class="card-header" id="headingTwo">
                             <h5 class="mb-0 styleButonTarife">
-                                <button class="btn btn-link styleButonTarife" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                <button class="btn btn-link collapsed butonTarifeColor" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
                                     aria-controls="collapseTwo">
                                     Manichiura / Pedichiura
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionTarife">
                             <div class="card-body listaTarife">
                                 <table class="table table-sm tarifeManichiura">
                                     <tbody>
@@ -599,16 +601,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card butonTarifeColor">
+                    <div class="card butonTarifeColor" id="tratamente">
                         <div class="card-header" id="headingThree">
                             <h5 class="mb-0 styleButonTarife">
-                                <button class="btn btn-link collapsed colorServicii" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">
+                                <button class="btn btn-link collapsed butonTarifeColor" type="button" data-toggle="collapse" data-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
                                     Tratamente
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionTarife">
                             <div class="card-body listaTarife">
                                 <table class="table table-sm tarifeTratamente">
                                     <tbody>
@@ -658,16 +660,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card butonTarifeColor">
+                    <div class="card butonTarifeColor" id="masaje">
                         <div class="card-header" id="headingFour">
                             <h5 class="mb-0 styleButonTarife">
-                                <button class="btn btn-link collapsed colorServicii" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
-                                    aria-controls="collapseThree">
+                                <button class="btn btn-link collapsed butonTarifeColor" type="button" data-toggle="collapse" data-target="#collapseFour"
+                                    aria-expanded="false" aria-controls="collapseThree">
                                     Masaje
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionTarife">
                             <div class="card-body listaTarife">
                                 <table class="table table-sm tarifemasaj">
                                     <tbody>
@@ -718,16 +720,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card butonTarifeColor">
+                    <div class="card butonTarifeColor" id="make">
                         <div class="card-header" id="headingFive">
                             <h5 class="mb-0 styleButonTarife">
-                                <button class="btn btn-link collapsed colorServicii " type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
-                                    aria-controls="collapseThree">
+                                <button class="btn btn-link collapsed butonTarifeColor " type="button" data-toggle="collapse" data-target="#collapseFive"
+                                    aria-expanded="false" aria-controls="collapseThree">
                                     Make-Up
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionTarife">
                             <div class="card-body listaTarife">
                                 <table class="table table-sm tarifemake-up">
                                     <tbody>
@@ -760,16 +762,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card butonTarifeColor">
+                    <div class="card butonTarifeColor" id="gene">
                         <div class="card-header" id="headingSix">
                             <h5 class="mb-0 styleButonTarife">
-                                <button class="btn btn-link collapsed colorServicii" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
+                                <button class="btn btn-link collapsed butonTarifeColor" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
                                     aria-controls="collapseThree">
                                     Gene fir cu fir
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionTarife">
                             <div class="card-body listaTarife">
                                 <table class="table table-sm tarifeGene">
                                     <tbody>
@@ -813,11 +815,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-    <div id="contact">Contact</div>
-    <div id="despreNoi">Despre noi</div>
-
+        <div id="contact">Contact</div>
+        <div id="despreNoi">Despre noi</div>
 
     </div>
 

@@ -57,28 +57,7 @@ header {
     text-align: center;
 }
 
-@media screen and (max-width: 991px) {
-    .menuHorizontally,
-    .program,
-    .address,
-    .cont,
-    .adresa,
-    .tel {
-        display: none;
-    }
 
-    .menuDropdown {
-        display: block;
-    }
-
-    header {
-        height: 9rem;
-    }
-
-    .noPadding {
-        padding: 5px;
-    }
-}
 
 
 
@@ -118,7 +97,7 @@ header {
     /* --------------------------- SERVICII ---------------------- */
 
 .wrapperServicii {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
 
     background-image: url('cover2.jpg');
@@ -129,8 +108,7 @@ header {
 }
 
 .accordionSrevicii {
-    position: relative;
-    top: 5rem;
+    padding-top: 5rem;
     text-align: center;
 }
 
@@ -147,30 +125,42 @@ header {
     /* background-color: hsla(0, 0%, 100%, 0.5); */
 }
 
+.aranjareRowServicii {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
     /* ----------------- TARIFE -------------------- */
 
 .wrapperTarife {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
 }
 
 .butonTarifeColor {
     background-color: rgb(109, 179, 191);
+    color: rgb(21, 54, 65);
+}
+
+.butonTarifeColor:hover {
+    text-decoration-line: none;
+    color: black;
+    font-weight: bold;
 }
 
 .listaTarife {
     background-color: rgb(148, 207, 201);
     color: rgb(21, 54, 65);
+    font-weight: normal;
 }
 
 .styleButonTarife {
-    color: rgb(21, 54, 65);
+    background-color: rgb(109, 179, 191);
     text-align: center;
 }
 
 .accordionTarife {
-    position: relative;
-    top: 5rem;
+    padding-top: 5rem;
 }
 
 
@@ -190,4 +180,30 @@ footer {
 }
 footer a {
     color: rgb(109, 179, 191);
+}
+
+@media screen and (max-width: 991px) {
+    .menuHorizontally,
+    .program,
+    .address,
+    .cont,
+    .adresa,
+    .tel {
+        display: none;
+    }
+
+    .menuDropdown {
+        display: block;
+    }
+
+    header {
+        height: 9rem;
+    }
+
+    .noPadding {
+        padding: 5px;
+    }
+    .aranjareRowServicii {
+        padding: 0px;
+    }
 }
