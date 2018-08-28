@@ -24,15 +24,15 @@ header {
 .menuHorizontally {
     border: 1px solid rgb(21, 54, 65);
 }
-.menuHorizontally, .menuHorizontally a, .dropdown-menu, .dropdown-menu a, .buttonDropdown{
+.menuHorizontally, .menuHorizontally a, .dropdown-menu, .dropdown-menu a, .buttonDropdown, .tarifeDropdown {
     background-color: rgb(148, 207, 201);
     color: rgb(21,54,65);
     border-radius: 5px;
 }
 
 .menuHorizontally a:hover,
-.menuHorizontally a:
-.dropdown-menu a:hover {
+.dropdown-menu a:hover, 
+.tarifeDropdown:hover {
     background-color: rgb(71, 153, 183);
 }
 
@@ -67,10 +67,6 @@ header {
         display: none;
     }
 
-    /* .pages-wrapper {
-        padding-top: 9rem;
-    } */
-
     .menuDropdown {
         display: block;
     }
@@ -82,14 +78,7 @@ header {
     .noPadding {
         padding: 5px;
     }
-
 }
-
-
-/* .pages-wrapper {
-    padding-top: 8rem;
-    height: 100vh;
-} */
 
 
 
@@ -139,7 +128,7 @@ header {
     align-items: center;
 }
 
-.accordion {
+.accordionSrevicii {
     position: relative;
     top: 5rem;
     text-align: center;
@@ -149,13 +138,13 @@ header {
     color: rgb(21, 54, 65);
 }
 
-.card-body {
+.descriereServiciu {
     float: right;
-    background-color: rgb(148, 207, 201);
 }
 
 .fundalTransparent {
     background-color: transparent;
+    /* background-color: hsla(0, 0%, 100%, 0.5); */
 }
 
     /* ----------------- TARIFE -------------------- */
@@ -163,45 +152,32 @@ header {
 .wrapperTarife {
     height: 100vh;
     width: 100vw;
-
-    background-image: url('cover2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
-.listaServicii {
-    position: relative;
-    top: 4rem;
-}
-
-.containerServicii {
-    max-width: 18rem; 
-    border: 2px solid rgb(21, 54, 65);
-}
-
-.listaTarifeServicii, .listaTarife{
-    background-color: rgb(21, 54, 65);
-    color: rgb(109, 179, 191);
-}
-
-.tabelTarife {
-    position: relative;
-    top: 4rem;
+.butonTarifeColor {
     background-color: rgb(109, 179, 191);
-    color: rgb(21, 54, 65);
-
-    border: 2px solid rgb(21, 54, 65);
-
-    height: 500px;
-    overflow: auto;
 }
+
+.listaTarife {
+    background-color: rgb(148, 207, 201);
+    color: rgb(21, 54, 65);
+}
+
+.styleButonTarife {
+    color: rgb(21, 54, 65);
+    text-align: center;
+}
+
+.accordionTarife {
+    position: relative;
+    top: 5rem;
+}
+
 
     /* --------------------- GALERIE------------------ */
 
     .dimensiunePhoto {
         width: 200px;
-        /* padding: 5px; */
     }
 
     /* ---------------------------------- Footer -------------------- */
