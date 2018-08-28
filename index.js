@@ -12,11 +12,14 @@ function hideAllPages() {
     document.getElementById('tarife').style.display = "none";
     document.getElementById('contact').style.display = "none";
     document.getElementById('despreNoi').style.display = "none";
-
-
 }
 
 if (window.location.hash.length > 1) {
     var pageId = window.location.hash.substr(2);
     changeActivePage(pageId);
+}
+
+function changeActiveTarife(tarifId) {
+    changeActivePage('tarife');
+    $('#'+tarifId).collapse('show');
 }

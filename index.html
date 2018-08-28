@@ -110,16 +110,15 @@
                                 Tarife
                             </button>
                             <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                <a class="dropdown-item" href="#epilat">Epilat</a>
-                                <a class="dropdown-item" href="#manichiura">Manichiura / Pedichiura</a>
-                                <a class="dropdown-item" href="#tratamente">Tratamente</a>
-                                <a class="dropdown-item" href="#masaje">Masaje</a>
-                                <a class="dropdown-item" href="#make">Make-Up</a>
-                                <a class="dropdown-item" href="#gene">Gene fir cu fir</a>
+                                <a class="dropdown-item" onclick="changeActiveTarife('collapseEpilatTarife')" href="collapseEpilatTarife">Epilat</a>
+                                <a class="dropdown-item" onclick="changeActiveTarife('collapseManichiuraTarife')" href="collapseManichiuraTarife">Manichiura / Pedichiura</a>
+                                <a class="dropdown-item" onclick="changeActiveTarife('collapseTratamenteTarife')" href="collapseTratamenteTarife">Tratamente</a>
+                                <a class="dropdown-item" onclick="changeActiveTarife('collapseMasajeTarife')" href="collapseMasajeTarife">Masaje</a>
+                                <a class="dropdown-item" onclick="changeActiveTarife('collapseMakeTarife')" href="collapseMakeTarife">Make-Up</a>
+                                <a class="dropdown-item" onclick="changeActiveTarife('collapseGeneTarife')" href="collapseGeneTarife">Gene fir cu fir</a>
                             </div>
                         </div>
 
-                        <a onclick="changeActivePage('tarife')" class="nav-link nav-item " href="#">Tarife</a>
                         <a onclick="changeActivePage('contact')" class="nav-link nav-item " href="#">Contact</a>
                         <a onclick="changeActivePage('despreNoi')" class="nav-link nav-item " href="#">Despre noi</a>
                     </nav>
@@ -379,7 +378,7 @@
         <div id="tarife">
             <div class="wrapperTarife">
                 <div class="accordion accordionTarife" id="accordionTarife">
-                    <div class="card butonTarifeColor" id="epilatTarife" >
+                    <div class="card butonTarifeColor" >
                         <div class="card-header" id="headingEpilatTarife">
                             <h5 class="mb-0 styleButonTarife">
                                 <button class="btn btn-link collapsed butonTarifeColor" type="button" data-toggle="collapse" data-target="#collapseEpilatTarife" aria-expanded="true"
@@ -535,7 +534,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card butonTarifeColor" id="manichiuraTarife">
+                    <div class="card butonTarifeColor" >
                         <div class="card-header" id="headingManichiuraTarife">
                             <h5 class="mb-0 styleButonTarife">
                                 <button class="btn btn-link collapsed butonTarifeColor" type="button" data-toggle="collapse" data-target="#collapseManichiutaTarife" aria-expanded="false"
@@ -601,7 +600,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card butonTarifeColor" id="tratamenteTarife">
+                    <div class="card butonTarifeColor" >
                         <div class="card-header" id="headingTratamenteTarife">
                             <h5 class="mb-0 styleButonTarife">
                                 <button class="btn btn-link collapsed butonTarifeColor" type="button" data-toggle="collapse" data-target="#collapseTratamenteTarife"
@@ -660,7 +659,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card butonTarifeColor" id="masajeTarife">
+                    <div class="card butonTarifeColor" >
                         <div class="card-header" id="headingMasajeServicii">
                             <h5 class="mb-0 styleButonTarife">
                                 <button class="btn btn-link collapsed butonTarifeColor" type="button" data-toggle="collapse" data-target="#collapseMasajeTarife"
@@ -720,7 +719,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card butonTarifeColor" id="makeTarife">
+                    <div class="card butonTarifeColor" >
                         <div class="card-header" id="headingMakeTarife">
                             <h5 class="mb-0 styleButonTarife">
                                 <button class="btn btn-link collapsed butonTarifeColor " type="button" data-toggle="collapse" data-target="#collapseMakeTarife"
@@ -762,7 +761,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card butonTarifeColor" id="geneTarife">
+                    <div class="card butonTarifeColor" >
                         <div class="card-header" id="headingGeneTarife">
                             <h5 class="mb-0 styleButonTarife">
                                 <button class="btn btn-link collapsed butonTarifeColor" type="button" data-toggle="collapse" data-target="#collapseGeneTarife" aria-expanded="false"
