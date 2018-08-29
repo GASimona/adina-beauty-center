@@ -21,6 +21,7 @@
 
     <!-- ICONS     -->
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    
 
     <!-- ---- Legaturi CSS si JavaScript---- -->
     <link rel="stylesheet" type="text/css" href="index.css">
@@ -68,11 +69,11 @@
                             </div>
 
                             <div class="col-1">
-                                <a href="https://www.facebook.com/AdinaBeautyCenter/" class="aFooter color-text" title="facebook">
-                                    <i class="fab fa-facebook fa-lg facebook"></i>
+                                <a href="https://www.facebook.com/AdinaBeautyCenter/" class="aFooter paddingFacebook" title="facebook">
+                                    <i class="fab fa-facebook facebook"></i>
                                 </a>
-                                <a href="#" class="aFooter color-text " title="email">
-                                    <i class="far fa-envelope fa-lg email"></i>
+                                <a href="#" class="aFooter" title="email">
+                                    <i class="far fa-envelope email"></i>
                                 </a>
                             </div>
                         </div>
@@ -80,8 +81,9 @@
                 </div>
                 <div class="col-lg-0 col-4">
                     <div class="btn-group menuDropdown">
-                        <button type="button" class="btn dropdown-toggle buttonDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Meniu
+                        <button type="button" class="btn buttonDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <!-- <i class="fa fa-list" aria-hidden="true" ></i> -->
+                            <i class="fa fa-bars" aria-hidden="true"></i>
                         </button>
                         <div class="dropdown-menu dropdown-menu-right">
                             <a onclick="changeActivePage('acasa')" class="nav-link">Acasa</a>
@@ -110,12 +112,13 @@
                                 Tarife
                             </button>
                             <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                <a class="dropdown-item" onclick="changeActiveTarife('collapseEpilatTarife')" href="collapseEpilatTarife">Epilat</a>
-                                <a class="dropdown-item" onclick="changeActiveTarife('collapseManichiuraTarife')" href="collapseManichiuraTarife">Manichiura / Pedichiura</a>
-                                <a class="dropdown-item" onclick="changeActiveTarife('collapseTratamenteTarife')" href="collapseTratamenteTarife">Tratamente</a>
-                                <a class="dropdown-item" onclick="changeActiveTarife('collapseMasajeTarife')" href="collapseMasajeTarife">Masaje</a>
-                                <a class="dropdown-item" onclick="changeActiveTarife('collapseMakeTarife')" href="collapseMakeTarife">Make-Up</a>
-                                <a class="dropdown-item" onclick="changeActiveTarife('collapseGeneTarife')" href="collapseGeneTarife">Gene fir cu fir</a>
+                                <a class="dropdown-item" onclick="changeActiveTarife('collapseEpilatTarife')">Epilat</a>
+                                <a class="dropdown-item" onclick="changeActiveTarife('collapseManichiuraTarife')">Manichiura
+                                    / Pedichiura</a>
+                                <a class="dropdown-item" onclick="changeActiveTarife('collapseTratamenteTarife')">Tratamente</a>
+                                <a class="dropdown-item" onclick="changeActiveTarife('collapseMasajeTarife')">Masaje</a>
+                                <a class="dropdown-item" onclick="changeActiveTarife('collapseMakeTarife')">Make-Up</a>
+                                <a class="dropdown-item" onclick="changeActiveTarife('collapseGeneTarife')">Gene fir cu fir</a>
                             </div>
                         </div>
 
@@ -130,7 +133,7 @@
     </header>
 
 
-    <div class="pages-wrapper">
+    <div class=" pages-wrapper">
         <div id="acasa" class="coverAcasa">
             <div class="wrapperAcasa">
                 <div class="profil-card">
@@ -184,8 +187,8 @@
                     <div class="card fundalTransparent">
                         <div class="card-header" id="headingManichiuraServicii">
                             <h5 class="mb-0">
-                                <button class="btn btn-link collapsed colorServicii" type="button" data-toggle="collapse" data-target="#collapseManichiuraServicii" aria-expanded="false"
-                                    aria-controls="collapseManichiuraServicii">
+                                <button class="btn btn-link collapsed colorServicii" type="button" data-toggle="collapse" data-target="#collapseManichiuraServicii"
+                                    aria-expanded="false" aria-controls="collapseManichiuraServicii">
                                     Manichiura / Pedichiura
                                 </button>
                             </h5>
@@ -217,8 +220,8 @@
                     <div class="card fundalTransparent">
                         <div class="card-header" id="headingTratamenteServicii">
                             <h5 class="mb-0">
-                                <button class="btn btn-link collapsed colorServicii" type="button" data-toggle="collapse" data-target="#collapseTratamenteServicii" aria-expanded="false"
-                                    aria-controls="collapseTratamenteServicii">
+                                <button class="btn btn-link collapsed colorServicii" type="button" data-toggle="collapse" data-target="#collapseTratamenteServicii"
+                                    aria-expanded="false" aria-controls="collapseTratamenteServicii">
                                     Tratamente
                                 </button>
                             </h5>
@@ -250,8 +253,8 @@
                     <div class="card fundalTransparent">
                         <div class="card-header" id="headingMasajeServicii">
                             <h5 class="mb-0">
-                                <button class="btn btn-link collapsed colorServicii" type="button" data-toggle="collapse" data-target="#collapseMasajeServicii" aria-expanded="false"
-                                    aria-controls="collapseMasajeServicii">
+                                <button class="btn btn-link collapsed colorServicii" type="button" data-toggle="collapse" data-target="#collapseMasajeServicii"
+                                    aria-expanded="false" aria-controls="collapseMasajeServicii">
                                     Masaje
                                 </button>
                             </h5>
@@ -283,8 +286,8 @@
                     <div class="card fundalTransparent">
                         <div class="card-header" id="headingMakeServicii">
                             <h5 class="mb-0">
-                                <button class="btn btn-link collapsed colorServicii" type="button" data-toggle="collapse" data-target="#collapseMakeServicii" aria-expanded="false"
-                                    aria-controls="collapseMakeServicii">
+                                <button class="btn btn-link collapsed colorServicii" type="button" data-toggle="collapse" data-target="#collapseMakeServicii"
+                                    aria-expanded="false" aria-controls="collapseMakeServicii">
                                     Make-Up
                                 </button>
                             </h5>
@@ -316,8 +319,8 @@
                     <div class="card fundalTransparent">
                         <div class="card-header" id="headingGeneServicii">
                             <h5 class="mb-0">
-                                <button class="btn btn-link collapsed colorServicii" type="button" data-toggle="collapse" data-target="#collapseGeneServicii" aria-expanded="false"
-                                    aria-controls="collapseGeneServicii">
+                                <button class="btn btn-link collapsed colorServicii" type="button" data-toggle="collapse" data-target="#collapseGeneServicii"
+                                    aria-expanded="false" aria-controls="collapseGeneServicii">
                                     Gene fir cu fir
                                 </button>
                             </h5>
@@ -351,8 +354,32 @@
             </div>
         </div>
 
-        <div id="galerie" class="py-5">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="galerie">
+            <div class="meniuPoze" style="width:500px; height:500px;">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-bloc" style="width:500px; height:500px;" src="photo8.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" style="width:500px; height:500px;" src="photo5.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" style="width:500px; height:500px;" src="photo7.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
+            <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="photo1.jpg" alt="First slide" style="width:300px">
@@ -372,17 +399,17 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-            </div>
+            </div> -->
         </div>
 
         <div id="tarife">
             <div class="wrapperTarife">
                 <div class="accordion accordionTarife" id="accordionTarife">
-                    <div class="card butonTarifeColor" >
+                    <div class="card butonTarifeColor">
                         <div class="card-header" id="headingEpilatTarife">
                             <h5 class="mb-0 styleButonTarife">
-                                <button class="btn btn-link collapsed butonTarifeColor" type="button" data-toggle="collapse" data-target="#collapseEpilatTarife" aria-expanded="true"
-                                    aria-controls="collapseEpilatTarife">
+                                <button class="btn btn-link collapsed butonTarifeColor" type="button" data-toggle="collapse" data-target="#collapseEpilatTarife"
+                                    aria-expanded="true" aria-controls="collapseEpilatTarife">
                                     Epilat
                                 </button>
                             </h5>
@@ -534,16 +561,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card butonTarifeColor" >
+                    <div class="card butonTarifeColor">
                         <div class="card-header" id="headingManichiuraTarife">
                             <h5 class="mb-0 styleButonTarife">
-                                <button class="btn btn-link collapsed butonTarifeColor" type="button" data-toggle="collapse" data-target="#collapseManichiutaTarife" aria-expanded="false"
-                                    aria-controls="collapseManichiutaTarife">
+                                <button class="btn btn-link collapsed butonTarifeColor" type="button" data-toggle="collapse" data-target="#collapseManichiuraTarife"
+                                    aria-expanded="false" aria-controls="collapseManichiuraTarife">
                                     Manichiura / Pedichiura
                                 </button>
                             </h5>
                         </div>
-                        <div id="collapseManichiutaTarife" class="collapse" aria-labelledby="headingManichiuraTarife" data-parent="#accordionTarife">
+                        <div id="collapseManichiuraTarife" class="collapse" aria-labelledby="headingManichiuraTarife" data-parent="#accordionTarife">
                             <div class="card-body listaTarife">
                                 <table class="table table-sm tarifeManichiura">
                                     <tbody>
@@ -600,7 +627,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card butonTarifeColor" >
+                    <div class="card butonTarifeColor">
                         <div class="card-header" id="headingTratamenteTarife">
                             <h5 class="mb-0 styleButonTarife">
                                 <button class="btn btn-link collapsed butonTarifeColor" type="button" data-toggle="collapse" data-target="#collapseTratamenteTarife"
@@ -659,7 +686,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card butonTarifeColor" >
+                    <div class="card butonTarifeColor">
                         <div class="card-header" id="headingMasajeServicii">
                             <h5 class="mb-0 styleButonTarife">
                                 <button class="btn btn-link collapsed butonTarifeColor" type="button" data-toggle="collapse" data-target="#collapseMasajeTarife"
@@ -719,7 +746,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card butonTarifeColor" >
+                    <div class="card butonTarifeColor">
                         <div class="card-header" id="headingMakeTarife">
                             <h5 class="mb-0 styleButonTarife">
                                 <button class="btn btn-link collapsed butonTarifeColor " type="button" data-toggle="collapse" data-target="#collapseMakeTarife"
@@ -761,11 +788,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card butonTarifeColor" >
+                    <div class="card butonTarifeColor">
                         <div class="card-header" id="headingGeneTarife">
                             <h5 class="mb-0 styleButonTarife">
-                                <button class="btn btn-link collapsed butonTarifeColor" type="button" data-toggle="collapse" data-target="#collapseGeneTarife" aria-expanded="false"
-                                    aria-controls="collapseGeneTarife">
+                                <button class="btn btn-link collapsed butonTarifeColor" type="button" data-toggle="collapse" data-target="#collapseGeneTarife"
+                                    aria-expanded="false" aria-controls="collapseGeneTarife">
                                     Gene fir cu fir
                                 </button>
                             </h5>
@@ -824,7 +851,6 @@
     <footer>
         <a href="#">#By Simona :*</a>
     </footer>
-
 
     <!-- </div> -->
 
