@@ -134,7 +134,6 @@ header {
 .wrapperTarife {
     min-height: 100vh;
     width: 100vw;
-    /* min-width: 75vw; */
 }
 
 .butonTarifeColor {
@@ -162,10 +161,6 @@ header {
 .accordionTarife {
     padding-top: 5rem;
 }
-
-
-    /* --------------------- GALERIE------------------ */
-
  
 
     /* ---------------------------------- Footer -------------------- */
@@ -180,7 +175,28 @@ footer {
 footer a {
     color: rgb(109, 179, 191);
 }
+ 
+/* --------------------galerie foto----------------------- */
 
+.galeriePhoto {
+    width: 100vw;
+    min-height: 100vh;
+    padding-top:5rem;
+}
+/* .boxPhoto {
+    width: 300px;
+    height: auto;
+    background-color: black;
+    float: left;
+    margin: 10px;
+}
+
+.boxPhoto img {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+} */
+/* -----------ecran mai mic------------------ */
 @media screen and (max-width: 991px) {
     .menuHorizontally,
     .program,
@@ -207,6 +223,10 @@ footer a {
     }
     .accordionTarife {
         padding-top: 0.2rem;
+    }
+
+    .galeriePhoto {
+        padding-top: 0px;
     }
     /* .pages-wrapper {
         margin: 0px;

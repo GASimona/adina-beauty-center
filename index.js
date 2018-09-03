@@ -23,3 +23,8 @@ function changeActiveTarife(tarifId) {
     changeActivePage('tarife');
     $('#'+tarifId).collapse('show');
 }
+
+// galerie
+// jQuery(document).ready(function(){ 
+//     jQuery("#gallery").unitegallery(); 
+// });
