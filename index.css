@@ -120,11 +120,11 @@ header {
     min-height: 100vh;
     width: 100vw;
 
-    background-image: url('cover2.jpg');
+    /* background-image: url('cover2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    align-items: center;
+    align-items: center; */
 }
 
 .accordionSrevicii {
@@ -141,8 +141,8 @@ header {
 }
 
 .fundalTransparent {
-    background-color: transparent;
-    /* background-color: hsla(0, 0%, 100%, 0.5); */
+    /* background-color: transparent; */
+    background-color: hsla(0, 4%, 31%, 0.5);
 }
 
 .aranjareRowServicii {
@@ -155,6 +155,8 @@ header {
 .wrapperTarife {
     min-height: 100vh;
     width: 100vw;
+    padding-left: 10rem; 
+    padding-right: 10rem;
 }
 
 .butonTarifeColor {
@@ -182,7 +184,7 @@ header {
 .accordionTarife {
     padding-top: 5rem;
 }
- 
+
 
     /* ---------------------------------- Footer -------------------- */
 footer {
@@ -244,6 +246,9 @@ footer a {
     }
     .accordionTarife {
         padding-top: 0.2rem;
+    }
+    .wrapperTarife {
+        padding: 0px;
     }
 
     /* ------- Galerie Photo------------ */
