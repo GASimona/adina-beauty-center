@@ -8,7 +8,8 @@ header {
 }
 
 .color-text {
-    color: rgb(109, 179, 191);
+    /* color: rgb(109, 179, 191); */
+    color: white;
 }
 
 #oferte,
@@ -48,14 +49,24 @@ header {
 
 .facebook, .email {
     color: white;
-    background-color:rgb(59,89,152);
+    /* background-color:rgb(59,89,152); */
 }
 .paddingFacebook {
     padding-right: 0.5rem;
 }
+/* .facebook, .email {
+    width: 2rem;
+    height: 2rem;
+} */
 
 .adres {
-    color: rgb(109, 179, 191);
+    /* color: rgb(109, 179, 191); */
+    color: white;
+}
+
+.nrTelephone {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 
@@ -266,6 +277,10 @@ footer a {
     .ofertaMasaj, .ofertaManichiura {
         padding-top: 1rem;
         text-align: center;
+    }
+
+    .paddingFacebook, .paddingEmail {
+        float: left;
     }
 
     /* .pages-wrapper {
