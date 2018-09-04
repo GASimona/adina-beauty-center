@@ -45,7 +45,7 @@ header {
     top: 4rem;
 }
 
-/* --------------- CONTACT ------------------------ */
+/* --------------- CONTACT facebook + mali------------------------ */
 
 .facebook, .email {
     color: white;
@@ -196,6 +196,17 @@ header {
     padding-top: 5rem;
 }
 
+/* ------------------ CONTACT ---------------------- */
+
+.contactPage {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+/* .paddingContact {
+    padding-top: 50px;
+    border: 1px solid black;
+} */
 
     /* ---------------------------------- Footer -------------------- */
 footer {
