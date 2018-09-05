@@ -205,8 +205,22 @@ header {
 /* ------------------ CONTACT ---------------------- */
 
 .contactPage {
-    width: 100vw;
+    /* width: 100vw; */
     min-height: 100vh;
+}
+.aranjareInPaginaContact {
+    max-width: 100vw; 
+    min-height: 100vh; 
+    padding:5rem;
+}
+.marimeHarta {
+    border: 2px solid black;
+    height: 27rem;
+    width: 35rem;
+}
+.formular {
+    width: auto;
+    height: auto;
 }
 
  
@@ -221,14 +235,18 @@ header {
     /* ---------------------------------- Footer -------------------- */
 footer {
     background-color: rgb(21, 54, 65);
-    padding: 5px;
+    /* padding: 5px; */
     bottom: 0px;
     font-size: 1rem;
     text-align: right;
     width: 100vw;
+    height: 3rem;
 }
 footer a {
+    position: relative;
+    top: 1rem;
     color: rgb(109, 179, 191);
+    padding-right: 2rem;
 }
 
 /* -----------ecran mai mic------------------ */
@@ -282,6 +300,17 @@ footer a {
 
     .paddingFacebook, .paddingEmail {
         float: left;
+    }
+
+    /* ------ Contact ------ */
+
+    .aranjareInPaginaContact {
+        padding: 0px;
+        padding-top: 1rem;
+    }
+    .marimeHarta {
+        height: auto;
+        width: auto;
     }
 
     /* .pages-wrapper {
