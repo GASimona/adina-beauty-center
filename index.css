@@ -216,7 +216,7 @@ header {
 .marimeHarta {
     border: 2px solid black;
     height: 27rem;
-    width: 35rem;
+    width: 28rem;
 }
 .formular {
     width: auto;
@@ -316,13 +316,16 @@ footer a {
         padding-top: 1rem;
     }
     .marimeHarta {
+        width: 80vw;
         height: auto;
-        width: auto;
     }
     .harta {
         padding-top: 2rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 2rem;
+        
+        /* border: auto; */
+        /* padding-left: 1rem;
+        padding-right: 1rem; */
     }
 
     /* .pages-wrapper {
