@@ -147,6 +147,12 @@ header {
     color: rgb(21, 54, 65);
 }
 
+.colorServicii:hover {
+    text-decoration-line: none;
+    color: black;
+    font-weight: bold;    
+}
+
 .descriereServiciu {
     float: right;
 }
@@ -203,10 +209,14 @@ header {
     min-height: 100vh;
 }
 
-/* .paddingContact {
-    padding-top: 50px;
-    border: 1px solid black;
-} */
+ 
+/* --------------------galerie foto----------------------- */
+
+.galeriePhoto {
+    width: 100vw;
+    min-height: 100vh;
+    padding-top:5rem;
+}
 
     /* ---------------------------------- Footer -------------------- */
 footer {
@@ -220,27 +230,7 @@ footer {
 footer a {
     color: rgb(109, 179, 191);
 }
- 
-/* --------------------galerie foto----------------------- */
 
-.galeriePhoto {
-    width: 100vw;
-    min-height: 100vh;
-    padding-top:5rem;
-}
-/* .boxPhoto {
-    width: 300px;
-    height: auto;
-    background-color: black;
-    float: left;
-    margin: 10px;
-}
-
-.boxPhoto img {
-    width: 300px;
-    height: auto;
-    padding: 20px;
-} */
 /* -----------ecran mai mic------------------ */
 @media screen and (max-width: 991px) {
     .menuHorizontally,
