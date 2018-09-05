@@ -223,6 +223,13 @@ header {
     height: auto;
 }
 
+.butonTrimiteMesaj {
+    background-color:rgb(148, 207, 201);
+}
+.butonTrimiteMesaj:hover {
+    background-color: rgb(71, 153, 183);
+}
+
  
 /* --------------------galerie foto----------------------- */
 
