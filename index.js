@@ -41,7 +41,7 @@ function fetchTextFromFile(fileName, idOfElement) {
             document.getElementById(idOfElement).innerHTML = data;
             console.log("Got " + data +  "from file");
         }
-    })
+    });
 }
 
 function loadAllPages() {
@@ -49,7 +49,7 @@ function loadAllPages() {
     fetchTextFromFile('acasa.html', 'acasa');
     fetchTextFromFile('oferte.html', 'oferte');
     fetchTextFromFile('servicii.html', 'servicii');
-    fetchTextFromFile('galerie.html', 'galerie');
+    // fetchTextFromFile('galerie.html', 'galerie');
     fetchTextFromFile('tarife.html', 'tarife');
     fetchTextFromFile('contact.html', 'contact');
     fetchTextFromFile('despreNoi.html', 'despreNoi');
