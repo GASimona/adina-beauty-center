@@ -1,3 +1,11 @@
+body {
+    min-height: 600px;
+    background-image: url("logo3.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 600px;
+}
+
 header {
     display: block;
     /* position: fixed; */
@@ -7,7 +15,12 @@ header {
 
     /* background-color: rgb(65, 23, 51); */
     /* background-color: rgb(44, 62, 80); */
-    background-color: rgb(41, 128, 185);
+    /* background-color: rgb(41, 128, 185); */
+    background-color: rgb(130 , 0, 115);
+}
+.logoImg {
+    position: relative;
+    top: -50px;
 }
 
 .color-text {
@@ -25,6 +38,8 @@ header {
 
     /* ----------------------- MENIU ORIZONTAL ------------------- */
 .menuHorizontally {
+    position: relative;
+    top: -90px;
     border: 1px solid rgb(21, 54, 65);
 }
 .menuHorizontally,
@@ -36,7 +51,8 @@ header {
     background: rgb(209, 209, 209); 
     /* color: rgb(65, 23, 51); */
     /* color: rgb(44, 62, 80); */
-    color: rgb(41, 128, 185);
+    /* color: rgb(41, 128, 185); */
+    color: rgb(130 , 0, 115);
     border-radius: 5px;
 }
 
@@ -46,7 +62,8 @@ header {
 .tarifeDropdown:hover {
     /* background-color: rgb(65, 23, 51); */
     /* background-color: rgb(44, 62, 80); */
-    background-color: rgb(41, 128, 185);
+    /* background-color: rgb(41, 128, 185); */
+    background-color: rgb(130 , 0, 115);
     color: white;
 }
 
@@ -142,8 +159,8 @@ header {
     /* padding-left: 10rem;
     padding-right: 10rem; */
     padding-top: 3rem;
-    padding-bottom: 3rem;
 }
+
 
 .wrapperServicii .row {
     padding-top: 2rem; 
@@ -166,7 +183,7 @@ header {
     background-origin: 0.3rem solid rgb(41,128,185);
     border-radius: 7px;
 	backface-visibility: hidden;
-	transition: transform .5s linear 0s;
+    transition: transform .5s linear 0s;
 }
 .flip3D > .back{
 	position:absolute;
@@ -176,10 +193,11 @@ header {
     height:240px; 
     /* border: 0.2rem solid rgb(33, 14, 33); */
     /* border: 0.2rem solid rgb(44,62,80); */
-    border: 0.2rem solid rgb(41, 128, 185);
+    /* border: 0.2rem solid rgb(41, 128, 185); */
+    border: 0.2rem solid rgb(130 , 0, 115);
     border-radius: 7px;
 	backface-visibility: hidden;
-	transition: transform .5s linear 0s;
+    transition: transform .5s linear 0s;
 }
 .flip3D:hover > .front{
 	transform: perspective( 600px ) rotateY( -180deg );
@@ -200,7 +218,8 @@ header {
 .butonTarifeColor {
     /* background-color: rgb(65, 23, 51); */
     /* background-color: rgb(44, 62, 80); */
-    background-color: rgb(41, 128, 185);
+    /* background-color: rgb(41, 128, 185); */
+    background-color: rgb(130 , 0, 115);
     color: white;
 }
 
@@ -212,27 +231,32 @@ header {
 
 .listaTarife {
     background: rgb(209, 209, 209); 
+    /* background: transparent; */
     /* color: rgb(21, 54, 65); */
     /* color: rgb(44, 62, 80); */
-    color: rgb(41, 128, 185);
+    /* color: rgb(41, 128, 185); */
+    color: rgb(130 , 0, 115);
     font-weight: normal;
 }
 
 .styleButonTarife {
     /* background-color: rgb(65, 23, 51); */
     /* background-color: rgb(44, 62, 80); */
-    background-color: rgb(41, 128, 185);
+    /* background-color: rgb(41, 128, 185); */
+    background-color: rgb(130 , 0, 115);
     text-align: center;
 }
 
 .accordionTarife {
     padding-top: 5rem;
+    opacity: 0.9;
 }
 
 .listaTarife .table tr:hover {
     /* background-color: rgb(65, 23, 51); */
     /* background-color: rgb(44, 62, 80); */
-    background-color: rgb(41, 128, 185);
+    /* background-color: rgb(41, 128, 185); */
+    background-color: rgb(130 , 0, 115);
     color: white;
 }
 
@@ -256,7 +280,8 @@ header {
 .contact {
     background: rgb(209, 209, 209); 
     /* color: rgb(21,54,65); */
-    color: rgb(41, 128, 185);
+    /* color: rgb(41, 128, 185); */
+    color: rgb(130 , 0, 115);
     margin-left: 2rem;
     margin-right: 2rem;
     text-align: center;
@@ -265,7 +290,8 @@ header {
 .contact h2, .contact h3 {
     /* color:rgb(65, 23, 51); */
     /* color: rgb(44, 62, 80); */
-    color: rgb(41, 128, 185);
+    /* color: rgb(41, 128, 185); */
+    color: rgb(130 , 0, 115);
 }
 
 .contact p, .contact h2{
@@ -275,6 +301,30 @@ header {
 .facebookPaginaContact {
     color: blue;
 }
+
+.fontNameSalon {
+    /* font-size: 3rem; */
+    /* font-family: 'Great Vibes', cursive; */
+    /* font-size: 2.5rem;
+    font-family: 'Marck Script', cursive; */
+    font-size: 2.5rem;
+    font-family: 'Parisienne', cursive;
+    /* font-size: 2.5rem;
+    font-family: 'Yellowtail', cursive; */
+    /* font-size: 2.5rem;
+    font-family: 'Bad Script', cursive; */
+    /* font-size: 2.5rem; */
+    /* font-family: 'Allura', cursive; */
+    /* font-family: 'Alex Brush', cursive; */
+    /* font-size: 2rem;
+    font-family: 'Fredericka the Great', cursive; */
+    /* font-size: 2.5rem; */
+    /* font-family: 'Mr Dafoe', cursive; */
+    /* font-family: 'Grand Hotel', cursive; */
+
+
+}
+
  
 /* --------------------galerie foto----------------------- */
 
@@ -288,7 +338,8 @@ header {
 footer {
     /* background-color: rgb(65, 23, 51); */
     /* background-color: rgb(44, 62, 80); */
-    background-color: rgb(41, 128, 185);
+    /* background-color: rgb(41, 128, 185); */
+    background-color: rgb(130 , 0, 115);
     bottom: 0px;
     font-size: 1rem;
     text-align: right;
@@ -313,6 +364,9 @@ footer a {
         display: none;
     }
 
+    body {
+        background: none;
+    }
     .menuDropdown {
         display: block;
     }
@@ -352,7 +406,15 @@ footer a {
     }
 
     .paddingFacebook {
-        float: left;
+        position: relative;
+        top: -130px;
+        float: right;
+        left: 2rem;
+    }
+    .nrTelephone {
+        position: relative;
+        top: -90px;
+        left: 2rem;
     }
 
     /* ------ Contact ------ */
