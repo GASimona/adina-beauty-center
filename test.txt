@@ -1,2 +1,0 @@
-eu sunt din afara
-<span style="color: red">ceva in el</span>

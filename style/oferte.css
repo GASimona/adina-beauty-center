@@ -1,0 +1,40 @@
+/* ------------------------ OFERTE -------------------------------------- */
+
+.cardOferte{
+    padding-bottom: 2rem;
+}
+.ofertePage   {
+    min-height: 100vh;
+    width: 100vw;
+    padding-top: 5rem;
+}
+.dimensiuneCard {
+    height: 20rem;
+}
+.dimensiuneImagine {
+    height: 20rem;
+}
+.ofertaMasaj, .ofertaManichiura {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+/* ---- telefon/tableta ----- */
+
+@media screen and (max-width: 991px) {
+    .ofertePage {
+        padding-top: 0px;
+    }
+    .cardOferte {
+        padding: 0.5rem;
+    }
+
+    .dimensiuneCard, .dimensiuneImagine{
+        height: auto;
+    }
+
+    .ofertaMasaj, .ofertaManichiura {
+        padding-top: 1rem;
+        text-align: center;
+    }
+}

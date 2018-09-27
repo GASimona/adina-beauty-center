@@ -1,0 +1,60 @@
+body {
+    min-height: 600px;
+    background-image: url("../pictures/logo3.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 600px;
+}
+
+header {
+    display: block;
+    /* position: fixed; */
+    height: 8rem;
+    width: 100vw;
+    padding: 1rem;
+
+    /* background-color: rgb(65, 23, 51); */
+    /* background-color: rgb(44, 62, 80); */
+    /* background-color: rgb(41, 128, 185); */
+    background-color: rgb(130 , 0, 115);
+}
+
+
+#oferte,
+#servicii,
+#galerie,
+#tarife,
+#contact,
+#despreNoi {
+    display: none;
+}
+
+
+
+/* ------------------- MENIU DROPDOWN ------------------ */
+.menuDropdown {
+    display: none;
+    float: right;
+    position: relative;
+    top: 4rem;
+}
+
+/* ---- telefon/tableta ----- */
+
+@media screen and (max-width: 991px) {
+    .menuHorizontally,
+    .program,
+    .address,
+    .cont,
+    .adresa,
+    .tel {
+        display: none;
+    }
+
+    body {
+        background: none;
+    }
+    header {
+        height: 9rem;
+    }
+}

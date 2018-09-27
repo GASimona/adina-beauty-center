@@ -1,0 +1,93 @@
+/* ------------------ CONTACT ---------------------- */
+
+.contactPage {
+    /* width: 100vw; */
+    min-height: 100vh;
+}
+.aranjareInPaginaContact {
+    max-width: 90vw; 
+    min-height: 100vh; 
+    padding:5rem;
+}
+.marimeHarta {
+    border: 2px solid rgb(21, 54, 65);
+    height: 27rem;
+    width: 28rem;
+}
+
+.contact {
+    /* background: rgb(209, 209, 209);  */
+    /* color: rgb(21,54,65); */
+    /* color: rgb(41, 128, 185); */
+    color: rgb(130 , 0, 115);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+.contact h2, .contact h3 {
+    /* color:rgb(65, 23, 51); */
+    /* color: rgb(44, 62, 80); */
+    /* color: rgb(41, 128, 185); */
+    color: rgb(130 , 0, 115);
+}
+
+/* .contact p, .contact h2{
+    padding-top: 1rem;
+} */
+
+.facebookPaginaContact {
+    color: blue;
+}
+.colorNameFacebook {
+    color: rgb(130 , 0, 115);
+}
+.colorNameFacebook:hover {
+    color: rgb(21, 54, 65);
+    text-decoration-line: none;    
+}
+
+.fontNameSalon {
+    /* font-size: 3rem; */
+    /* font-family: 'Great Vibes', cursive; */
+    /* font-size: 2.5rem;
+    font-family: 'Marck Script', cursive; */
+    font-size: 2.5rem;
+    font-family: 'Parisienne', cursive;
+    /* font-size: 2.5rem;
+    font-family: 'Yellowtail', cursive; */
+    /* font-size: 2.5rem;
+    font-family: 'Bad Script', cursive; */
+    /* font-size: 2.5rem; */
+    /* font-family: 'Allura', cursive; */
+    /* font-family: 'Alex Brush', cursive; */
+    /* font-size: 2rem;
+    font-family: 'Fredericka the Great', cursive; */
+    /* font-size: 2.5rem; */
+    /* font-family: 'Mr Dafoe', cursive; */
+    /* font-family: 'Grand Hotel', cursive; */
+}
+
+/* ---- telefon/tableta ----- */
+
+@media screen and (max-width: 991px) {
+    .aranjareInPaginaContact {
+        padding: 0px;
+        padding-top: 1rem;
+    }
+    .marimeHarta {
+        width: 80vw;
+        height: auto;
+    }
+    .harta {
+        padding-top: 2rem;
+        padding-left: 2rem;
+    }
+    .contact {
+        padding-top: 0.5rem;
+    }
+    .contact h2 {
+         font-size: 2rem;
+    }
+    
+}

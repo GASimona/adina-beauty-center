@@ -1,0 +1,18 @@
+    /* ---------------------------------- Footer -------------------- */
+    footer {
+        /* background-color: rgb(65, 23, 51); */
+        /* background-color: rgb(44, 62, 80); */
+        /* background-color: rgb(41, 128, 185); */
+        background-color: rgb(130 , 0, 115);
+        bottom: 0px;
+        font-size: 1rem;
+        text-align: right;
+        width: 100vw;
+        height: 3rem;
+    }
+    footer a {
+        position: relative;
+        top: 1rem;
+        color: white;
+        padding-right: 2rem;
+    }

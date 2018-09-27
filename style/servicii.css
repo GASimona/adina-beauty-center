@@ -1,0 +1,72 @@
+    /* --------------------------- SERVICII ---------------------- */
+
+.wrapperServicii {
+    min-height: 100vh;
+    width: 100vw;
+    /* padding-left: 10rem;
+    padding-right: 10rem; */
+    padding-top: 3rem;
+}
+        
+.wrapperServicii .row {
+    padding-top: 2rem; 
+}
+
+
+    /* ---------- Servicii rotate ------------ */
+    
+.flip3D{ 
+    width:280px; 
+    height:240px; 
+    float:left; 
+    padding-left: 3rem;
+}
+.flip3D > .front{
+    position:absolute;
+    transform: perspective( 600px ) rotateY( 0deg );
+    width:280px; 
+    height:240px; 
+        /* border: 0.2rem solid rgb(33, 14, 33); */
+        /* border: 0.2rem solid rgb(44,62,80); */
+    background-origin: 0.3rem solid rgb(41,128,185);
+    border-radius: 7px;
+    backface-visibility: hidden;
+    transition: transform .5s linear 0s;
+}
+.flip3D > .back{
+    position:absolute;
+    transform: perspective( 600px ) rotateY( 180deg );
+    background: rgb(209, 209, 209); 
+    width: 280px; 
+    height:240px; 
+        /* border: 0.2rem solid rgb(33, 14, 33); */
+        /* border: 0.2rem solid rgb(44,62,80); */
+        /* border: 0.2rem solid rgb(41, 128, 185); */
+    border: 0.2rem solid rgb(130 , 0, 115);
+    border-radius: 7px;
+    backface-visibility: hidden;
+    transition: transform .5s linear 0s;
+}
+.flip3D:hover > .front{
+    transform: perspective( 600px ) rotateY( -180deg );
+}
+.flip3D:hover > .back{
+    transform: perspective( 600px ) rotateY( 0deg );
+}
+
+/* ---- telefon/tableta ----- */
+    
+@media screen and (max-width: 991px) {
+    .aranjareRowServicii {
+        padding: 0px;
+    }
+    .wrapperServicii {
+        padding: 0px;
+    }
+    .row .flip3D {
+        margin-top: 2rem;
+    }
+    .flip3D {
+        padding-left: 1rem;
+    }
+}
