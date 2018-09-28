@@ -15,12 +15,16 @@
 
     /* ---------- Servicii rotate ------------ */
     
-.flip3D{ 
+.flip3D { 
     width:280px; 
     height:240px; 
     float:left; 
-    padding-left: 3rem;
+    margin-left: 3rem;
 }
+.front {
+    border: 1px solid rgb(130 , 0, 115);
+}
+
 .flip3D > .front{
     position:absolute;
     transform: perspective( 600px ) rotateY( 0deg );
@@ -54,6 +58,7 @@
     transform: perspective( 600px ) rotateY( 0deg );
 }
 
+
 /* ---- telefon/tableta ----- */
     
 @media screen and (max-width: 991px) {
@@ -65,8 +70,5 @@
     }
     .row .flip3D {
         margin-top: 2rem;
-    }
-    .flip3D {
-        padding-left: 1rem;
     }
 }
