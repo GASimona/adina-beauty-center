@@ -16,8 +16,8 @@
     /* ---------- Servicii rotate ------------ */
     
 .flip3D { 
-    width:280px; 
-    height:240px; 
+    width:300px; 
+    height:260px; 
     float:left; 
     margin-left: 3rem;
 }
@@ -28,22 +28,22 @@
 .flip3D > .front{
     position:absolute;
     transform: perspective( 600px ) rotateY( 0deg );
-    width:280px; 
-    height:240px; 
+    width:300px; 
+    height:260px; 
         /* border: 0.2rem solid rgb(33, 14, 33); */
         /* border: 0.2rem solid rgb(44,62,80); */
     background-origin: 0.3rem solid rgb(41,128,185);
     border-radius: 7px;
     backface-visibility: hidden;
     transition: transform .5s linear 0s;
-    box-shadow: 20px 20px 5px grey;
+    box-shadow: 15px 15px 20px grey;
 }
 .flip3D > .back{
     position:absolute;
     transform: perspective( 600px ) rotateY( 180deg );
     background: rgb(209, 209, 209); 
-    width: 280px; 
-    height:240px; 
+    width: 300px; 
+    height:260px; 
         /* border: 0.2rem solid rgb(33, 14, 33); */
         /* border: 0.2rem solid rgb(44,62,80); */
         /* border: 0.2rem solid rgb(41, 128, 185); */
