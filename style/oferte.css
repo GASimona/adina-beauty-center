@@ -10,10 +10,11 @@
 }
 .dimensiuneCard {
     height: 20rem;
+    box-shadow: 10px 10px 5px grey;
+    color: rgb(130 , 0, 115);
 }
 .dimensiuneImagine {
-    height: 19.5rem;
-    padding-right: 0.5rem;
+    height: 19.9rem;
 }
 .ofertaMasaj, .ofertaManichiura {
     padding-top: 5rem;
@@ -37,5 +38,8 @@
     .ofertaMasaj, .ofertaManichiura {
         padding-top: 1rem;
         text-align: center;
+    }
+    .dimensiuneCard {
+        box-shadow: none;
     }
 }
