@@ -18,8 +18,8 @@
     border-radius: 5px;
 }
     
-    
 .menuHorizontally a:hover,
+.menuHorizontally a:hover i,
 .dropdown-menu a:hover, 
 .tarifeDropdown:hover {
         /* background-color: rgb(65, 23, 51); */
@@ -28,7 +28,6 @@
     background-color: rgb(130 , 0, 115);
     color: white;
 }
-
 
 /* ---- telefon/tableta ----- */
 

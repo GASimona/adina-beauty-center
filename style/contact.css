@@ -7,7 +7,8 @@
 .aranjareInPaginaContact {
     max-width: 90vw; 
     min-height: 100vh; 
-    padding:5rem;
+    padding-top: 5rem;
+    /* padding:5rem; */
 }
 .marimeHarta {
     border: 2px solid rgb(21, 54, 65);
@@ -19,31 +20,27 @@
     /* background: rgb(209, 209, 209);  */
     /* color: rgb(21,54,65); */
     /* color: rgb(41, 128, 185); */
-    color: rgb(130 , 0, 115);
-    margin-left: 2rem;
-    margin-right: 2rem;
+    /* color: rgb(130 , 0, 115); */
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
     text-align: center;
+    padding-top: 3rem;
+}
+.contact h2 {
+    padding-bottom: 2rem;
 }
 
-.contact h2, .contact h3 {
+.contact h2, .facebookPaginaContact, .telefonPaginaContact, .colorContact, .colorAdres {
     /* color:rgb(65, 23, 51); */
     /* color: rgb(44, 62, 80); */
     /* color: rgb(41, 128, 185); */
     color: rgb(130 , 0, 115);
 }
-
-/* .contact p, .contact h2{
-    padding-top: 1rem;
-} */
-
-.facebookPaginaContact {
-    color: blue;
-}
-.colorNameFacebook {
-    color: rgb(130 , 0, 115);
-}
-.colorNameFacebook:hover {
+.colorNameFacebook, .colorNrTelefon {
     color: rgb(21, 54, 65);
+}
+.colorNameFacebook:hover, .colorNrTelefon:hover {
+    color: rgb(130 , 0, 115);
     text-decoration-line: none;    
 }
 
@@ -66,6 +63,10 @@
     /* font-size: 2.5rem; */
     /* font-family: 'Mr Dafoe', cursive; */
     /* font-family: 'Grand Hotel', cursive; */
+}
+
+.fontContact {
+    font-size: 1rem;
 }
 
 /* ---- telefon/tableta ----- */

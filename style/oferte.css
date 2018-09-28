@@ -1,7 +1,7 @@
 /* ------------------------ OFERTE -------------------------------------- */
 
 .cardOferte{
-    padding-bottom: 2rem;
+    padding: 2rem;
 }
 .ofertePage   {
     min-height: 100vh;
@@ -12,7 +12,8 @@
     height: 20rem;
 }
 .dimensiuneImagine {
-    height: 20rem;
+    height: 19.5rem;
+    padding-right: 0.5rem;
 }
 .ofertaMasaj, .ofertaManichiura {
     padding-top: 5rem;

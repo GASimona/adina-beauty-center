@@ -59,19 +59,19 @@ loadAllPages();
 
 // -------- chat facebook --------
 
-window.fbAsyncInit = function() {
-    FB.init({
-        appId: 'din site ceva',
-        autologAppEvents: true,
-        xfbnl: true,
-        version: 'v2.12'
-    });
-};
-(function(d,s,id) {
-    var js, fjs = d.getElementByTagName(s)[0];
-    if (d.getElementById(id)) {return;}
-    js = d.createElement(s);
-    js.id = id;
-    js.src = "https://connect.facebook.net/en_uk/sdk.js";
-    fjs.parentNode.insertBefore(js, fjs);
-} (document, 'script', 'facebook-jssdk'));
+// window.fbAsyncInit = function() {
+//     FB.init({
+//         appId: 'din site ceva',
+//         autologAppEvents: true,
+//         xfbnl: true,
+//         version: 'v2.12'
+//     });
+// };
+// (function(d,s,id) {
+//     var js, fjs = d.getElementByTagName(s)[0];
+//     if (d.getElementById(id)) {return;}
+//     js = d.createElement(s);
+//     js.id = id;
+//     js.src = "https://connect.facebook.net/en_uk/sdk.js";
+//     fjs.parentNode.insertBefore(js, fjs);
+// } (document, 'script', 'facebook-jssdk'));
