@@ -2,7 +2,7 @@
 .menuHorizontally {
     position: relative;
     top: -90px;
-    border: 1px solid rgb(21, 54, 65);
+    /* border: 1px solid rgb(21, 54, 65); */
 }
 .menuHorizontally,
 .menuHorizontally a,
