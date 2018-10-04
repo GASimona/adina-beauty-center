@@ -15,7 +15,7 @@ function hideAllPages() {
     document.getElementById('galerie').style.display = "none";
     document.getElementById('tarife').style.display = "none";
     document.getElementById('contact').style.display = "none";
-    document.getElementById('despreNoi').style.display = "none";
+    // document.getElementById('despreNoi').style.display = "none";
 }
 
 if (window.location.hash.length > 1) {
@@ -52,7 +52,7 @@ function loadAllPages() {
     // fetchTextFromFile('galerie.html', 'galerie');
     fetchTextFromFile('tarife.html', 'tarife');
     fetchTextFromFile('contact.html', 'contact');
-    fetchTextFromFile('despreNoi.html', 'despreNoi');
+    // fetchTextFromFile('despreNoi.html', 'despreNoi');
 }
 
 loadAllPages();

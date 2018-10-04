@@ -49,21 +49,12 @@
     <script type="text/javascript" src="index.js"></script>
 
     <!-- ------------  Font ----------------- -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet"> -->
+
     <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet"> -->
 
 </head>
 
 <body>
-    <!-- <div class="fundal"></div> -->
     <header>
         <div class="container-fluid">
             <div class="row">
@@ -72,7 +63,6 @@
                         <div class="row">
                             <div class="col-lg-4 col-sm-11 color-text">
                                 <img src="pictures/logo4.png" alt="logo" width="200px" height="180px;" class="logoImg">
-                                <!-- <h2>Adina-Beauty-Center</h2> -->
                             </div>
 
                             <div class="col-lg-3 color-text program">
@@ -96,12 +86,10 @@
                             </div>
 
                             <div class="col-lg-2 address">
-                                <!-- <i class="fa fa-map-marker fa-lg adres" aria-hidden="true"></i> -->
                                 <i class="fas fa-map-marker-alt color-text"></i>
                                 <a class="color-text fontAdres" onclick="changeActivePage('contact')" href="#">
                                     Adresa
                                 </a>
-
                             </div>
 
                             <div class="col-1">
@@ -109,13 +97,6 @@
                                     title="facebook">
                                     <i class="fab fa-facebook fa-2x facebook"></i>
                                 </a>
-
-                                <!-- ---------------------- FARA MAIL -----------------------                             -->
-
-                                <!-- <a href="#" class="aFooter" title="email">
-                                    <i class="far fa-envelope fa-2x email"></i>
-                                </a> -->
-
                             </div>
                         </div>
                     </div>
@@ -124,7 +105,6 @@
                     <div class="btn-group menuDropdown">
                         <button type="button" class="btn buttonDropdown" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">
-                            <!-- <i class="fa fa-list" aria-hidden="true" ></i> -->
                             <i class="fa fa-bars" aria-hidden="true"></i>
                         </button>
                         <div class="dropdown-menu dropdown-menu-right">
@@ -134,7 +114,7 @@
                             <a onclick="changeActivePage('galerie')" class="nav-link" href="#">Galerie</a>
                             <a onclick="changeActivePage('tarife')" class="nav-link" href="#">Tarife</a>
                             <a onclick="changeActivePage('contact')" class="nav-link" href="#">Contact</a>
-                            <a onclick="changeActivePage('despreNoi')" class="nav-link" href="#">Despre noi</a>
+                            <!-- <a onclick="changeActivePage('despreNoi')" class="nav-link" href="#">Despre noi</a> -->
                         </div>
                     </div>
                 </div>
@@ -169,7 +149,7 @@
                         </div>
 
                         <a onclick="changeActivePage('contact')" class="nav-link nav-item " href="#">Contact</a>
-                        <a onclick="changeActivePage('despreNoi')" class="nav-link nav-item " href="#">Despre noi</a>
+                        <!-- <a onclick="changeActivePage('despreNoi')" class="nav-link nav-item " href="#">Despre noi</a> -->
                     </nav>
                 </div>
                 <div class="col-lg-2"></div>
@@ -193,16 +173,18 @@
         <div id="galerie" class="container galeriePhoto">
             <div class="row">
                 <div class="col-12">
-                    <div id="nanogallery2" class="galleryDesktop" data-nanogallery2='{
+                      <div ID="ngy2p" class="galleryDesktop" data-nanogallery2='{
                         "itemsBaseURL": "",
-                        "thumbnailWidth": "200",
-                        "thumbnailLabel": {
-                          "display": false
-                        },
-                        "thumbnailHoverEffect2": "scale120",
+                        "thumbnailWidth": "400",
+                        "thumbnailHeight": "400",
+                        "thumbnailDisplayTransition": "slideLeft",
                         "galleryDisplayMode": "pagination",
+                        "galleryMaxRows": 1,
+                        "galleryPaginationMode": "numbers",
                         "thumbnailAlignment": "center",
-                        "thumbnailLevelUp": true
+                        "galleryMaxItems": null,
+                        "thumbnailGutterWidth": 30,
+                        "thumbnailGutterHeight": 30
                       }'>
 
                         <a href="pictures/1.1.jpg" data-ngThumb="pictures/1.1.jpg"></a>
@@ -246,9 +228,9 @@
 
 
                     </div>
-                    <div ID="ngy2p" class="galleryMobil" data-nanogallery2='{
+                      <div ID="ngy2p" class="galleryMobil" data-nanogallery2='{
                         "itemsBaseURL": "",
-                        "thumbnailWidth": "200",
+                        "thumbnailWidth": "300",
                         "thumbnailHeight": "auto",
                         "thumbnailLabel": {
                           "display": false
@@ -256,7 +238,9 @@
                         "thumbnailHoverEffect2": "scale120",
                         "galleryDisplayMode": "pagination",
                         "thumbnailAlignment": "center",
-                        "thumbnailLevelUp": true
+                        "thumbnailLevelUp": true,
+                        "thumbnailGutterHeight": 30
+
                       }'>
 
                         <a href="pictures/1.1.jpg" data-ngThumb="pictures/1.1.jpg"></a>
@@ -307,7 +291,7 @@
         <div id="contact" class="container contactPage">
         </div>
 
-        <div id="despreNoi"></div>
+        <!-- <div id="despreNoi"></div> -->
 
     </div>
 
@@ -318,7 +302,6 @@
         <a href="#">#By Simona :*</a>
     </footer>
 
-    <!-- </div> -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

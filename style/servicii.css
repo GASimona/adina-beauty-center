@@ -102,12 +102,21 @@
 /* ---- telefon/tableta ----- */
     
 @media screen and (max-width: 991px) {
-    .aranjareRowServicii {
+    
+    .wrapperServicii, .aranjareRowServicii, .wrapperServicii .row {
         padding: 0px;
     }
     .wrapperServicii {
+        padding-bottom: 1rem;
+    }
+
+    .col-sm-10 {
         padding: 0px;
     }
+    .row {
+        margin: 0px;
+    }
+    
     .row .flip3D {
         margin-top: 2rem;
     }
