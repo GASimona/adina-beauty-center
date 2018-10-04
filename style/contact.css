@@ -30,7 +30,10 @@
     padding-bottom: 2rem;
 }
 
-.contact h2, .facebookPaginaContact, .telefonPaginaContact, .colorContact, .colorAdres {
+.programLucru, .fontContact, .fontNameSalon {
+    padding-bottom: 1rem;
+}
+.contact h2, .facebookPaginaContact, .telefonPaginaContact, .colorContact, .colorAdres, .programPaginaContact {
     /* color:rgb(65, 23, 51); */
     /* color: rgb(44, 62, 80); */
     /* color: rgb(41, 128, 185); */
@@ -67,6 +70,10 @@
 
 .fontContact {
     font-size: 1rem;
+}
+
+.programLucru ul {
+    list-style-type: none;
 }
 
 /* ---- telefon/tableta ----- */

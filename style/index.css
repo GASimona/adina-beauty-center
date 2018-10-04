@@ -29,6 +29,9 @@ header {
     display: none;
 }
 
+.program ul {
+    list-style-type: none;
+}
 
 
 /* ------------------- MENIU DROPDOWN ------------------ */
