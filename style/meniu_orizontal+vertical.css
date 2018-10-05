@@ -1,9 +1,8 @@
-    /* ----------------------- MENIU ORIZONTAL ------------------- */
 .menuHorizontally {
     position: relative;
     top: -90px;
-    /* border: 1px solid rgb(21, 54, 65); */
 }
+
 .menuHorizontally,
 .menuHorizontally a,
 .dropdown-menu a,
@@ -11,9 +10,6 @@
 .buttonDropdown,
 .tarifeDropdown {
     background: rgb(209, 209, 209); 
-        /* color: rgb(65, 23, 51); */
-        /* color: rgb(44, 62, 80); */
-        /* color: rgb(41, 128, 185); */
     color: rgb(130 , 0, 115);
     border-radius: 5px;
 }
@@ -22,9 +18,6 @@
 .menuHorizontally a:hover i,
 .dropdown-menu a:hover, 
 .tarifeDropdown:hover {
-        /* background-color: rgb(65, 23, 51); */
-        /* background-color: rgb(44, 62, 80); */
-        /* background-color: rgb(41, 128, 185); */
     background-color: rgb(130 , 0, 115);
     color: white;
 }

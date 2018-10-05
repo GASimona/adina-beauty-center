@@ -15,7 +15,6 @@ function hideAllPages() {
     document.getElementById('galerie').style.display = "none";
     document.getElementById('tarife').style.display = "none";
     document.getElementById('contact').style.display = "none";
-    // document.getElementById('despreNoi').style.display = "none";
 }
 
 if (window.location.hash.length > 1) {
@@ -28,10 +27,6 @@ function changeActiveTarife(tarifId) {
     $('#'+tarifId).collapse('show');
 }
 
-// galerie
-// jQuery(document).ready(function(){ 
-//     jQuery("#gallery").unitegallery(); 
-// });
 
 
 function fetchTextFromFile(fileName, idOfElement) {
@@ -45,14 +40,11 @@ function fetchTextFromFile(fileName, idOfElement) {
 }
 
 function loadAllPages() {
-    // fetchTextFromFile('test.txt', 'aici');
     fetchTextFromFile('acasa.html', 'acasa');
     fetchTextFromFile('oferte.html', 'oferte');
     fetchTextFromFile('servicii.html', 'servicii');
-    // fetchTextFromFile('galerie.html', 'galerie');
     fetchTextFromFile('tarife.html', 'tarife');
     fetchTextFromFile('contact.html', 'contact');
-    // fetchTextFromFile('despreNoi.html', 'despreNoi');
 }
 
 loadAllPages();

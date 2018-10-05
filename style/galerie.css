@@ -1,5 +1,3 @@
-/* --------------------galerie foto----------------------- */
-
 .galeriePhoto {
     width: 100vw;
     min-height: 100vh;
@@ -9,6 +7,8 @@
 .galleryMobil {
     display: none;
 }
+
+/* ---- telefon/tableta ----- */
 
 @media screen and (max-width: 991px) {
     .galleryDesktop {
