@@ -28,4 +28,7 @@
     .menuDropdown {
         display: block;
     }
+    .container-fluid {
+        padding: 0px;
+    }
 }

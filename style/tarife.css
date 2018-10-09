@@ -37,6 +37,9 @@
     color: white;
 }
     
+.table td, .table th {
+    border: 0px;
+}
 /* ---- telefon/tableta ----- */
 
 @media screen and (max-width: 991px) {
