@@ -104,12 +104,13 @@
                             <i class="fa fa-bars" aria-hidden="true"></i>
                         </button>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <a onclick="changeActivePage('acasa')" class="nav-link">Acasa</a>
-                            <a onclick="changeActivePage('oferte')" class="nav-link" href="#">Oferte</a>
-                            <a onclick="changeActivePage('servicii')" class="nav-link" href="#">Servicii</a>
-                            <a onclick="changeActivePage('galerie')" class="nav-link" href="#">Galerie</a>
-                            <a onclick="changeActivePage('tarife')" class="nav-link" href="#">Tarife</a>
-                            <a onclick="changeActivePage('contact')" class="nav-link" href="#">Contact</a>
+                            <a onclick="changeActivePage('acasa')" class="nav-link" href="#/acasa">Acasa</a>
+                            <a onclick="changeActivePage('oferte')" class="nav-link" href="#/oferte">Oferte</a>
+                            <!-- TODO: Modifica href sa fie ca la meniul mare -->
+                            <a onclick="changeActivePage('servicii')" class="nav-link" href="#/servicii">Servicii</a>
+                            <a onclick="changeActivePage('galerie')" class="nav-link" href="#/galerie">Galerie</a>
+                            <a onclick="changeActivePage('tarife')" class="nav-link" href="#/tarife">Tarife</a>
+                            <a onclick="changeActivePage('contact')" class="nav-link" href="#/contact">Contact</a>
                         </div>
                     </div>
                 </div>
@@ -118,12 +119,12 @@
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8 menuHorizontally">
                     <nav class="nav nav-pills nav-fill menuStyle">
-                        <a onclick="changeActivePage('acasa')" class="nav-link nav-item" href="#">
+                        <a onclick="changeActivePage('acasa')" class="nav-link nav-item" href="#/acasa">
                             <i class="fas fa-home"></i>
                         </a>
-                        <a onclick="changeActivePage('oferte')" class="nav-link nav-item " href="#">Oferte</a>
-                        <a onclick="changeActivePage('servicii')" class="nav-link nav-item " href="#">Servicii</a>
-                        <a onclick="changeActivePage('galerie')" class="nav-link nav-item " href="#">Galerie</a>
+                        <a onclick="changeActivePage('oferte')" class="nav-link nav-item " href="#/oferte">Oferte</a>
+                        <a onclick="changeActivePage('servicii')" class="nav-link nav-item " href="#/servicii">Servicii</a>
+                        <a onclick="changeActivePage('galerie')" class="nav-link nav-item " href="#/galerie">Galerie</a>
 
                         <div class="btn-group" role="group">
                             <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle tarifeDropdown"
@@ -131,19 +132,19 @@
                                 Tarife
                             </button>
                             <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                <a class="dropdown-item" onclick="changeActiveTarife('collapseEpilatTarife')" href="#">Epilat</a>
-                                <a class="dropdown-item" onclick="changeActiveTarife('collapseManichiuraTarife')" href="#">Manichiura
+                                <a class="dropdown-item" onclick="changeActiveTarife('collapseEpilatTarife')" href="#/tarife">Epilat</a>
+                                <a class="dropdown-item" onclick="changeActiveTarife('collapseManichiuraTarife')" href="#/tarife">Manichiura
                                     / Pedichiura</a>
-                                <a class="dropdown-item" onclick="changeActiveTarife('collapseTratamenteTarife')" href="#">Tratamente</a>
-                                <a class="dropdown-item" onclick="changeActiveTarife('collapseMasajeTarife')" href="#">Masaje</a>
-                                <a class="dropdown-item" onclick="changeActiveTarife('collapseMakeTarife')" href="#">Make-Up</a>
-                                <a class="dropdown-item" onclick="changeActiveTarife('collapseGeneTarife')" href="#">Gene
+                                <a class="dropdown-item" onclick="changeActiveTarife('collapseTratamenteTarife')" href="#/tarife">Tratamente</a>
+                                <a class="dropdown-item" onclick="changeActiveTarife('collapseMasajeTarife')" href="#/tarife">Masaje</a>
+                                <a class="dropdown-item" onclick="changeActiveTarife('collapseMakeTarife')" href="#/tarife">Make-Up</a>
+                                <a class="dropdown-item" onclick="changeActiveTarife('collapseGeneTarife')" href="#/tarife">Gene
                                     fir cu
                                     fir</a>
                             </div>
                         </div>
 
-                        <a onclick="changeActivePage('contact')" class="nav-link nav-item " href="#">Contact</a>
+                        <a onclick="changeActivePage('contact')" class="nav-link nav-item " href="#/contact">Contact</a>
                     </nav>
                 </div>
                 <div class="col-lg-2"></div>

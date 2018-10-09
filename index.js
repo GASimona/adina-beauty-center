@@ -17,11 +17,6 @@ function hideAllPages() {
     document.getElementById('contact').style.display = "none";
 }
 
-if (window.location.hash.length > 1) {
-    var pageId = window.location.hash.substr(2);
-    changeActivePage(pageId);
-}
-
 function changeActiveTarife(tarifId) {
     changeActivePage('tarife');
     $('#'+tarifId).collapse('show');
@@ -32,9 +27,10 @@ function changeActiveTarife(tarifId) {
 function fetchTextFromFile(fileName, idOfElement) {
     $.ajax({
         url: fileName,
+        async: false,
         success: function(data) {
             document.getElementById(idOfElement).innerHTML = data;
-            console.log("Got " + data +  "from file");
+            // console.log("Got " + data +  "from file");
         }
     });
 }
@@ -47,7 +43,17 @@ function loadAllPages() {
     fetchTextFromFile('contact.html', 'contact');
 }
 
-loadAllPages();
+var pageId = -1;
+if (window.location.hash.length > 1) {
+    pageId = window.location.hash.substr(2);
+}
+
+setTimeout(() => {
+    loadAllPages();
+    if (pageId !== -1) {
+        changeActivePage(pageId);
+    }
+}, 1);
 
 // -------- chat facebook --------
 
