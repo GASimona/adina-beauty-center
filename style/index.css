@@ -12,8 +12,13 @@ header {
     width: 100vw;
     padding: 1rem;
     background-color: rgb(130 , 0, 115);
+
+    padding-right: 0px;
 }
 
+.aliniatDreapta {
+    padding-right: 0px;
+}
 
 #oferte,
 #servicii,

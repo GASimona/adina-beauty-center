@@ -83,8 +83,49 @@
 }
 
 /* ---- telefon/tableta ----- */
+
+@media screen and (max-width: 320px) {
+
+    .faraPadding {
+        padding:0px;
+    }
+
+    .wrapperServicii, .aranjareRowServicii, .wrapperServicii .row {
+        padding: 0px;
+    }
+    .wrapperServicii {
+        padding-bottom: 1rem;
+    }
+
+    .col-sm-10 {
+        padding: 0px;
+    }
+    .row {
+        margin: 0px;
+    }
     
-@media screen and (max-width: 991px) {
+    .row .flip3D {
+        margin-top: 2rem;
+    }
+
+    .flip3D {
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+    }
+
+    .flip3D > .front{
+        box-shadow: none;
+    }
+    .aranjareTextGene, 
+    .aranjareTextManichiura,
+    .aranjareTextTratament,
+    .aranjareTextEpilat,
+    .aranjareTextMachiaj {
+        padding-top: 0.5rem;
+    }
+}
+    
+@media screen and (max-width: 991px) and (min-width: 321px) {
     
     .wrapperServicii, .aranjareRowServicii, .wrapperServicii .row {
         padding: 0px;
@@ -106,4 +147,13 @@
     .flip3D > .front{
         box-shadow: none;
     }
+    .aranjareTextGene, 
+    .aranjareTextManichiura,
+    .aranjareTextTratament,
+    .aranjareTextEpilat,
+    .aranjareTextMachiaj {
+        padding-top: 0.5rem;
+    }
 }
+
+

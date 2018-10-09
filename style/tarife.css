@@ -40,6 +40,9 @@
 .table td, .table th {
     border: 0px;
 }
+.butonTarifeColor .card-header {
+    background-color: rgb(130 , 0, 115);
+}
 /* ---- telefon/tableta ----- */
 
 @media screen and (max-width: 991px) {
