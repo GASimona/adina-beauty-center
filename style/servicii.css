@@ -150,6 +150,12 @@
     }
     .flip3D > .front{
         box-shadow: none;
+
+        transition:none;
+    }
+
+    .flip3D >.back {
+        transition: none;
     }
     .aranjareTextGene, 
     .aranjareTextManichiura,
