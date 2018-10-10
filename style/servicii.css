@@ -39,11 +39,12 @@
     box-shadow: 20px 20px 25px grey;
 
     font-size: 1rem;
-    font-family: Optima , cursive;
+    font-family: Papyrus , cursive;
     text-align: center;
     line-height: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-top: 1rem;
 }
 
 .numeServiciu {
