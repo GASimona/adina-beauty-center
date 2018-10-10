@@ -117,9 +117,11 @@
         margin-right: 0.75rem;
     }
 
-    .flip3D > .front{
+    .flip3D > .front , .flip3D > .back{
         box-shadow: none;
+        transition: none;
     }
+
     .aranjareTextGene, 
     .aranjareTextManichiura,
     .aranjareTextTratament,
@@ -150,7 +152,6 @@
     }
     .flip3D > .front{
         box-shadow: none;
-
         transition:none;
     }
 
