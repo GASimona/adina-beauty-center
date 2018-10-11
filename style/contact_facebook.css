@@ -33,11 +33,11 @@
 /* ---- telefon/tableta ----- */
 
 @media screen and (max-width: 550px) {
-    .paddingFacebook {
+    .pagFacebook {
         position: relative;
         top: -130px;
         float: right;
-        left: 2rem;
+        /* left: rem; */
     }
     .nrTelephone {
         position: relative;
@@ -50,43 +50,45 @@
 }
 
 @media screen and (max-width: 710px) and (min-width: 551px){
-    .paddingFacebook {
+    .pagFacebook {
         position: relative;
         float: right;
-        top: -12rem;
-        left: 24rem;
+        top: -6rem;
+        left: 1rem;;
     }
     .nrTelephone {
         position: relative;
         float: right;
         width: 5rem;
-        top: -12rem;
-        left: 16rem;
+        top: -6rem;
+        left: -4rem;
     }
     .program {
         position: relative;
         top: -11rem;
         left: 12rem;
+        width: 300px;
     }
 }
 
 @media screen and (max-width: 991px) and (min-width: 711px){
-    .paddingFacebook {
+    .pagFacebook {
         position: relative;
         float: right;
-        top: -15rem;
-        left: 27rem;
+        top: -10rem;
+        left: 5rem;
     }
     .nrTelephone {
         position: relative;
         float: right;
         width: 5rem;
-        top: -13rem;
-        left: 30rem;
+        top: -8rem;
+        left: 10rem;
     }
     .program {
         position: relative;
         top: -10rem;
         left: 12rem;
+        width: 300px;
     }
 }
