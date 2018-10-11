@@ -90,10 +90,6 @@
 
 @media screen and (max-width: 320px) {
 
-    .faraPadding {
-        padding:0px;
-    }
-
     .wrapperServicii, .aranjareRowServicii, .wrapperServicii .row {
         padding: 0px;
     }
@@ -130,14 +126,12 @@
         padding-top: 0.5rem;
     }
 }
-    
+
+
 @media screen and (max-width: 991px) and (min-width: 321px) {
     
     .wrapperServicii, .aranjareRowServicii, .wrapperServicii .row {
         padding: 0px;
-    }
-    .wrapperServicii {
-        padding-bottom: 1rem;
     }
 
     .col-sm-10 {
@@ -148,7 +142,8 @@
     }
     
     .row .flip3D {
-        margin-top: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     .flip3D > .front{
         box-shadow: none;
@@ -164,6 +159,14 @@
     .aranjareTextEpilat,
     .aranjareTextMachiaj {
         padding-top: 0.5rem;
+    }
+
+    .wrapperServicii .row {
+        display: inline;
+    }
+
+    .wrapperServicii .row .col-md-6 {
+        float: left;
     }
 }
 

@@ -49,8 +49,7 @@ header {
     .program,
     .address,
     .cont,
-    .adresa,
-    .tel {
+    .adresa {
         display: none;
     }
 
