@@ -30,7 +30,7 @@
 }
 .flip3D > .back{
     position:absolute;
-    transform: perspective( 600px ) rotateY( 180deg );
+    transform: perspective( 600px ) rotateY( 90deg );
     background: rgb(209, 209, 209); 
     width: 300px; 
     height:260px; 
