@@ -32,7 +32,7 @@
 
 /* ---- telefon/tableta ----- */
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 550px) {
     .paddingFacebook {
         position: relative;
         top: -130px;
@@ -43,5 +43,50 @@
         position: relative;
         top: -90px;
         left: 3rem;
+    }
+    .program {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 710px) and (min-width: 551px){
+    .paddingFacebook {
+        position: relative;
+        float: right;
+        top: -12rem;
+        left: 24rem;
+    }
+    .nrTelephone {
+        position: relative;
+        float: right;
+        width: 5rem;
+        top: -12rem;
+        left: 16rem;
+    }
+    .program {
+        position: relative;
+        top: -11rem;
+        left: 12rem;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 711px){
+    .paddingFacebook {
+        position: relative;
+        float: right;
+        top: -15rem;
+        left: 27rem;
+    }
+    .nrTelephone {
+        position: relative;
+        float: right;
+        width: 5rem;
+        top: -13rem;
+        left: 30rem;
+    }
+    .program {
+        position: relative;
+        top: -10rem;
+        left: 12rem;
     }
 }
