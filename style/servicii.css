@@ -113,10 +113,10 @@
         margin-right: 0.75rem;
     }
 
-    /* .flip3D > .front , .flip3D > .back{
+    .flip3D > .front , .flip3D > .back{
         box-shadow: none;
         transition: none;
-    } */
+    }
 
     .aranjareTextGene, 
     .aranjareTextManichiura,
@@ -143,17 +143,15 @@
     
     .row .flip3D {
         margin: 1rem;
-        /* margin-top: 1rem;
-        margin-bottom: 1rem; */
     }
     .flip3D > .front{
         box-shadow: none;
-        /* transition:none; */
+        transition:none;
     }
 
-    /* .flip3D >.back {
+    .flip3D >.back {
         transition: none;
-    } */
+    }
     .aranjareTextGene, 
     .aranjareTextManichiura,
     .aranjareTextTratament,
