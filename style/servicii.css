@@ -113,10 +113,10 @@
         margin-right: 0.75rem;
     }
 
-    .flip3D > .front , .flip3D > .back{
+    /* .flip3D > .front , .flip3D > .back{
         box-shadow: none;
         transition: none;
-    }
+    } */
 
     .aranjareTextGene, 
     .aranjareTextManichiura,
