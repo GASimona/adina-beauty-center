@@ -43,6 +43,11 @@
 .butonTarifeColor .card-header {
     background-color: rgb(130 , 0, 115);
 }
+
+.aranjarePreturi {
+    text-align: right;
+    width: 70px;
+}
 /* ---- telefon/tableta ----- */
 
 @media screen and (max-width: 991px) {
