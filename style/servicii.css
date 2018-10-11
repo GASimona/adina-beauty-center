@@ -142,8 +142,9 @@
     }
     
     .row .flip3D {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        margin: 1rem;
+        /* margin-top: 1rem;
+        margin-bottom: 1rem; */
     }
     .flip3D > .front{
         box-shadow: none;
@@ -161,12 +162,15 @@
         padding-top: 0.5rem;
     }
 
+    
+
     .wrapperServicii .row {
         display: inline;
     }
 
     .wrapperServicii .row .col-md-6 {
         float: left;
+        width: 330px;
     }
 }
 
