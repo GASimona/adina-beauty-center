@@ -148,12 +148,12 @@
     }
     .flip3D > .front{
         box-shadow: none;
-        transition:none;
+        /* transition:none; */
     }
 
-    .flip3D >.back {
+    /* .flip3D >.back {
         transition: none;
-    }
+    } */
     .aranjareTextGene, 
     .aranjareTextManichiura,
     .aranjareTextTratament,
