@@ -13,3 +13,12 @@
     footer div span, footer div i {
         font-size: 0.75rem;
     }
+
+    footer div span a {
+        color: #212529;
+    }
+
+    footer div span a:hover {
+        color: #ffffff;
+        text-decoration: none;
+    }  
