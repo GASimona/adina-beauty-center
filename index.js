@@ -2,6 +2,8 @@ function changeActivePage(pageId) {
     hideAllPages();
     document.getElementById(pageId).style.display = "table";
     window.location.hash = '/' + pageId;
+    ga('send', 'pageview', pageId);
+
     // HACK: Fortez galeria sa se randeze din nou la dimensiunile corecte.
     if (pageId === 'galerie') {
         window.scrollBy(0, 1);
