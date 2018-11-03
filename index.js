@@ -1,8 +1,15 @@
-function changeActivePage(pageId) {
+function changeActivePage(pageId, tarifId) {
     hideAllPages();
     document.getElementById(pageId).style.display = "table";
     window.location.hash = '/' + pageId;
-    ga('send', 'pageview', pageId);
+
+    var analyticsPage = pageId;
+
+    if (tarifId)   {
+        analyticsPage = pageId + '-' + tarifId;
+    }
+
+    ga('send', 'pageview', analyticsPage);
 
     // HACK: Fortez galeria sa se randeze din nou la dimensiunile corecte.
     if (pageId === 'galerie') {
@@ -20,7 +27,7 @@ function hideAllPages() {
 }
 
 function changeActiveTarife(tarifId) {
-    changeActivePage('tarife');
+    changeActivePage('tarife', tarifId);
     $('#'+tarifId).collapse('show');
 }
 
